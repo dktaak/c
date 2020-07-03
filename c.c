@@ -62,7 +62,7 @@ int j=i/4;
 printf("i=%d %d\n",i,j);
 */
 /*
-//*** question
+// *** question
 unsigned int k =-14;
 k=k*5;
 printf("\n%d",k);
