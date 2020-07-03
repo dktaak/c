@@ -36,6 +36,54 @@ num>>pos&1?printf("\n%d bit is set\n",pos):printf("\n%d bit is clear\n",pos);
 //scanf("num= %d ",&nu);
 //nu<0 ? printf("negative\n"):printf("+ve\n");
 //nu%2 ? printf("even\n"):printf("odd\n");
+/*
+    while(1)
+    {
+int n;
+scanf("%d",&n);
+n<0?printf("-ve\n"):printf("+ve\n");
+n%2?printf("odd\n"):printf("even\n");
+    }
+    */
+    /*
+    int i=2,j=7;
+    j=i|j&j^!i;
+    printf("%d %d",i,j);
+*//*
+int i=-5;
+i=i/3;
+printf("i=%d\n",i);
+*/
+//  Why -15%4 give answer in minus form
+/*
+char i=-15;
+i=i%4;
+int j=i/4;
+printf("i=%d %d\n",i,j);
+*/
+/*
+//*** question
+unsigned int k =-14;
+k=k*5;
+printf("\n%d",k);
+*/
+/*
+int a=5;
+a=!(-a==(a!=1));
+printf("\n%d",a);
+*/
+/*
+int x=(3*3>=9)*(9<=9+5)*2;
+printf("\n%d",x);
+*/
+//int x=12+3*5/4-10;  printf("\n%d",x);
+
+
+//int v=4*(3+4)/3-2;  printf("\n%d",v);
+
+//int w=4,x=2,y=5,z=1,v;  v=y>=w*y<=x==z;   printf("\n%d",v);
+
+int x,y=5,z=5;    x=y==z==x;      printf("\n%d",x);
 
 
 
