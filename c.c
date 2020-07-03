@@ -23,9 +23,20 @@ num>>pos&1?printf("\n%d bit is set\n",pos):printf("\n%d bit is clear\n",pos);
 
 //Use of ternary operator
 
-int i=20,j=30;
+//int i=40,j=30;
 //i>j?printf(" \n%d is bigger\n",i):printf(" \n%d is bigger\n",j);
 //i=i>j?j=40:j=50; //will give lvaue error bec will treat like this i=(i>j?j=40:j)=50; based on priority
-i=i<j?j=40:(j=50);
-printf(" \ni=%d\nj=%d\n",i,j);
+//i=i<j?j=40:(j=50);
+//printf(" \ni=%d\nj=%d\n",i,j);
+
+
+//odd/even and +/-
+
+//int nu;
+//scanf("num= %d ",&nu);
+//nu<0 ? printf("negative\n"):printf("+ve\n");
+//nu%2 ? printf("even\n"):printf("odd\n");
+
+
+
 }
