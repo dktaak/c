@@ -22,5 +22,5 @@ int main()
     r4=r4>>8;
 
     num=(r1|r2|r3|r4);
-    printf("%x\n",num);
+    //printf("%x\n",num);
 }
