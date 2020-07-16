@@ -6,6 +6,7 @@ int num1,num2,num3,num,pos;
 printf("enter number\n");
 scanf("%d",&num);
 printf("enter position\n");
+//printf("enter position\n");
 scanf("\n%d",&pos);
 //char ch='s';
 //to clear bit
