@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1594901033 source:c:\users\infosys\desktop\code block\little_to_big_endian\main.c
+	<stdio.h>
+	<stdlib.h>
+
