@@ -3,7 +3,7 @@
 
 int main()
 {
-    unsigned int num;
+    unsigned int num,s;
     int r1,r2,r3,r4;
 
     printf("enter number in hexadecimal format(0x11111111)\n");
