@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1595059269 source:c:\users\infosys\desktop\code block\c\swapping_nibbles\main.c
+	<stdio.h>
+	<stdlib.h>
+
