@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597727158 source:c:\users\infosys\desktop\code block\c\cmp string\main.c
+	<stdio.h>
+	<stdlib.h>
+
