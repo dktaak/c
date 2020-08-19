@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1596871597 source:c:\users\infosys\desktop\code block\c\bubble sort\main.c
+	<stdio.h>
+	<stdlib.h>
+

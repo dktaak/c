@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1596863330 source:c:\users\infosys\desktop\code block\c\selection sort\main.c
+	<stdio.h>
+	<stdlib.h>
+
