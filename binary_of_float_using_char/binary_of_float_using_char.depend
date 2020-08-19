@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1595956081 source:c:\users\infosys\desktop\code block\c\binary_of_float_using_char\main.c
+	<stdio.h>
+	<stdlib.h>
+
