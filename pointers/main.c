@@ -4,7 +4,7 @@
 int main()
 {
     int j,i=10;
-    int *p=3,*q;
+    int *p=&i,*q;
     p=&i;
     printf("p= %p\n",p);
     printf("\n");
