@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597869149 source:c:\users\infosys\desktop\code block\c\reverse words of a string\main.c
+	<stdio.h>
+	<stdlib.h>
+
