@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597850259 source:c:\users\infosys\desktop\code block\c\mystrcpy\main.c
+	<stdio.h>
+	<stdlib.h>
+
