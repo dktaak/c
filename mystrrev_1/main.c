@@ -11,17 +11,30 @@ int main()
    printf("Reverse between specified positions String is = %s\n",s);
     return 0;
 }
-void mystrrev_1(char* s1,char *s2)
+void mystrrev_1(char* p,char *q)
 {
-    char temp;
-    while(s1<s2)
+    char ch;
+    /*//using for loop
+    int i,j;
+    for(i=0;p+i<=q;i++);
+    printf("%d\n",i);
+    for(i=i-1,j=0;j<i;i--,j++)
     {
-        temp=*s1;
-        *s1=*s2;
-        *s2=temp;
-        s1++;
-        s2--;
+        ch=p[i];
+        p[i]=p[j];
+        p[j]=ch;
+    }*/
+    //printf("Reverse between specified positions String is = %s\n",p);
+
+    while(p<q)
+    {
+        ch=*p;
+        *p=*q;
+        *q=ch;
+        p++;
+        q--;
     }
+
     return 0;
 }
 
