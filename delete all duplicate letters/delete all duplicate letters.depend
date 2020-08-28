@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1598628267 source:c:\users\infosys\desktop\code block\c\delete all duplicate letters\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

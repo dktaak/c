@@ -8,6 +8,7 @@ int main()
     printf("Enter String s1,s2\n");
     scanf("%s%s",s1,s2);
     mystrcpy(s1,s2);
+    printf("\n%s",s1);
     return 0;
 }
 void mystrcpy(char*s1,const char*s2)
