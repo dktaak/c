@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598710551 source:c:\users\infosys\desktop\code block\c\rev word which atlest hv one digit and more than 3 letter\main.c
+	<stdio.h>
+	<stdlib.h>
+
