@@ -1,33 +1,149 @@
 #include<stdio.h>
-void main()
+
+int main(void)
+{{
+    int i,j,n,p;
+	printf("Enter n : ");
+	scanf("%d",&n);
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		p=n;
+		for(j=1; j<=i; j++)
+			printf("%d",p--);
+		p=p+2;
+		for(j=1; j<=i-1; j++)
+			printf("%d",p++);
+		printf("\n");
+	}
+	n--;
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=i; j++)
+			printf(" ");
+		p=n;
+		for(j=1; j<=n-i+1; j++)
+			printf("%d",p--);
+		p=p+2;
+		for(j=1; j<=n-i; j++)
+			printf("%d",p++);
+		printf("\n");
+	}}
+	printf("\n");
+	{int i,j,n,p;
+	printf("Enter n : ");
+	scanf("%d",&n);
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		p=i;
+		for(j=1; j<=i; j++)
+			printf("%d",p++);
+		p=p-2;
+		for(j=1; j<=i-1; j++)
+			printf("%d",p--);
+		printf("\n");
+	}
+	n--;
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=i; j++)
+			printf(" ");
+		p=n+1-i;
+		for(j=1; j<=n-i+1; j++)
+			printf("%d",p++);
+		p=p-2;
+		for(j=1; j<=n-i; j++)
+			printf("%d",p--);
+		printf("\n");
+	}}
+	printf("\n");
 {
-    int i,j,l,n,u,r,sum=0,s,c=0;
-    printf("Enter the lower range = ");
-    scanf(" %d",&l);
-    printf("\nEnter the upper range = ");
-    scanf(" %d",&u);
-    printf("\n");
+      int i,j,n;
+	printf("Enter n : ");
+	scanf("%d",&n);
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		for(j=1; j<=2*i-1; j++)
+			printf("%d",j);
+		printf("\n");
+	}
+	n--;
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=i; j++)
+			printf(" ");
+		for(j=1; j<=2*(n-i)+1; j++)
+			printf("%d",j);
+		printf("\n");
+	}
+}
+	printf("\n");
+{
+int i,j,n;
+	printf("Enter n : ");
+	scanf("%d",&n);
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		for(j=1; j<=2*i-1; j++)
+			printf("%d",i);
+		printf("\n");
+	}
+	n--;
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=i; j++)
+			printf(" ");
+		for(j=1; j<=2*(n-i)+1; j++)
+			printf("%d",n+1-i);
+		printf("\n");
+	}
+}
+	printf("\n");
+{
+ int i,j,n;
+	printf("Enter n : ");
+	scanf("%d",&n);
 
-    if((l>100)&&(u<1000)&&(u>l))
-    {
-      for(i=l+1,j=u;i<j;i++)
-      {
-          for(n=i,s=0;n;r=n%10,s=s+r*r*r,n=n/10);
-
-          if(s==i)
-          {
-              c++;
-              sum=sum+s;
-              printf("%d\n",s);
-          }
-      }
-      printf("Count of Armstrong number b/w %d to %d = %d\n",l,u,c);
-      printf("Sum of Armstrong number b/w %d to %d = %d\n",l,u,sum);
-    }
-    else if(l>u)
-    printf("upper range should be greater than lower range");
-    else
-    printf("Invalid parameter range\n");
-
-
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		for(j=1; j<=2*i-1; j++)
+			printf("*");
+		printf("\n");
+	}
+	n--;
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=i; j++)
+			printf(" ");
+		for(j=1; j<=2*(n-i)+1; j++)
+			printf("*");
+		printf("\n");
+	}
+}
+	printf("\n");
+{
+int i,j,n;
+	printf("Enter number of lines : ");
+	scanf("%d",&n);
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n-i; j++)
+			printf(" ");
+		for(j=1; j<=2*i-1; j++)
+			printf("%d",i);
+		printf("\n");
+	}
+	return 0;
+}
+	printf("\n");
+	return 0;
 }
